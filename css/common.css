@@ -36,3 +36,25 @@ body {
 .box {
   margin: 5px;
 }
+
+.item {
+  max-width: 360px;
+  border-radius: 8px;
+  background-color: #F6F6FE;
+
+  padding: 16px;
+}
+
+.task1-cat-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin: 0;
+  padding: 8px 16px;
+
+  /* строки 40-58 - експерементальні */
