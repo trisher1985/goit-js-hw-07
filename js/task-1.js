@@ -1,15 +1,14 @@
-const ulCategoriesElem = document.getElementById("categories");
-const liItems = ulCategoriesElem.querySelectorAll(".item");
+const list = document.querySelector('#categories');
+console.log(`Number of categories: ${list.children.length}`);
 
-console.log(`Number of categories: ${liItems.length}`);
-
-liItems.forEach((element) => {
-  const textElem = element.querySelector("h2");
-  console.log(`Category: ${textElem.textContent}`);
-
-  const categoryItems = element.querySelectorAll("ul li");
-  console.log(`Elements: ${categoryItems.length}`);
-});
+const item = document.querySelectorAll('.item');
+item.forEach
+(element => 
+  {
+    console.log(`Category: ${element.firstElementChild.textContent}`);
+    console.log(`Elements: ${element.lastElementChild.children.length}`);
+  }
+)
 
 //!=====================================================================================
 // З використанням властивостей і методів DOM-елементів, напиши скрипт, який:
